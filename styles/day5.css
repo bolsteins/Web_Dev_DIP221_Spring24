@@ -1,0 +1,27 @@
+* {
+    /* * overwrites everything */
+    background-color: beige;
+}
+
+.boxes {
+    margin: 10px;
+    border: 2px solid black;
+    padding: 3px;
+    background-color: lightcyan;
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+}
+
+.b-content {
+    text-align: center;
+}
+
+.my-emp {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    color: red;
+    font-size: 24px;
+}
