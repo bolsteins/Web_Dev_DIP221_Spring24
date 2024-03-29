@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    grid-template-columns: 20% 40% 35%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 2%;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    grid-template-areas: 
+    "my-header my-header my-header"
+    "my-nav my-article my-sidebar"
+    "my-nav my-main my-sidebar"
+    "my-footer my-footer my-footer";
+}
+
+.box {
+    background-color: lightcoral;
+    border: 2px dashed black; 
+    border-radius: 5%;
+}
+
+.box-1 {
+    grid-area: my-header;
+}
+
+.box-2 {
+    grid-area: my-main;
+}
+
+.box-3 {
+    grid-area: my-footer;
+}
+
+.box-4 {
+    grid-area: my-sidebar;
+}
+
+.box-5 {
+    grid-area: my-article;
+}
+
+.box-6 {
+    grid-area: my-nav;
+}
